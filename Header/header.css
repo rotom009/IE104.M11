@@ -1,0 +1,57 @@
+img{
+    width: 130px;
+    height: 130px;
+}
+#header{
+    display: flex;
+    background-color: #e0d399;
+    padding: 20px 80px;
+    background-image: url(../img/footer.png);
+    border-radius:10px;
+    background-attachment: fixed;
+
+    height: 130px;
+}
+#header a{
+    margin-left: 30px;
+    text-decoration: none;  
+    color: rgb(20, 11, 11);
+    font-size: 23px;
+    font-weight:bold;
+    margin-bottom: 10px;
+    
+}
+#header input{
+    height:25px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    padding-left: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+    border: 1px solid #e0d399;
+}
+#header a:hover{
+    color: red;
+}
+
+.do {
+    width: 80px;
+    margin-left: 10px;
+    
+}
+.do i{
+    float: right;
+    color:green;
+}
+.do b{
+    float: left;
+    margin-top: 0px;
+    color:green;
+}
+.do b:hover{
+    color:rgb(168, 0, 154);
+}
+.do i:hover{
+    color:rgb(168, 0, 154);
+}

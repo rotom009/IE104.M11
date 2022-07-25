@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ủng hộ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="../img/logo.svg"/>
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
+        <link rel="stylesheet" href="css/donate.css">
+        <link rel="stylesheet" href="../Footer/footer.css">
+        <link rel="stylesheet" href="../Header/header.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <a href="../index.html" target="_self"><img src="../img/logo.svg"/></a>
+            <a href="../index.html" style="margin-top:33px">Giới thiệu <i class="fas fa-book-reader"></i></a>
+            <a href="../SachTrongNuoc/sachtrongnuoc.html" style="margin-top:33px">Sách trong nước <i class="fas fa-book"></i></a>
+            <a href="../SachNuocNgoai/sachnuocngoai.html" style="margin-top:33px">Sách nước ngoài <i class="fas fa-book"></i></a>
+            <a href="../SachPhatTrienBanThan/sachphattrienbanthan.html" style="margin-top:33px">Sách phát triển bản thân <i class="fas fa-book"></i></a>
+            <a href="../Help&Support/help&support.html" style="margin-top:33px">Help and Support <i class="fas fa-hands-helping"></i></a>
+            <input type="text" placeholder="&#xF002; Tìm kiếm " style="font-family:Arial, FontAwesome" />
+            <div class="do"><a href="../Donate/donate.html" style="font-size:12px"><b>Donate</b><i class="fas fa-donate"></i></a></div>
+        </div>
+        <div id="head">
+            <h1>ỦNG HỘ</h1>
+            <hr>
+        </div>
+        <div id="left">
+            <ul>
+                <li><p style="color:white">Ủng hộ bằng số tài khoản bên dưới</p></li>   
+                <li><i class="fas fa-map-marker-alt fa-lg"></i>TP.HCM</li>
+                <li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15672.924961103905!2d106.8030541!3d10.8700089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafa66f9c8be3c91!2sUniversity%20of%20Information%20Technology%20VNU-HCM!5e0!3m2!1sen!2s!4v1640075020430!5m2!1sen!2s" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+                <li><i class="far fa-envelope fa-lg"></i> <a href="mailto: 19522572@gm.uit.edu.vn" target="_blank">19522572@gm.uit.edu.vn</a></li>
+                <li><i class="fas fa-phone fa-lg"></i> 00210313001</li>
+                <li><i class="fas fa-university fa-lg"></i>1231231231 ( Vietcombank )</li>
+            </ul>
+        </div>
+        <div id="right">    
+            <ul>
+                <li><p style="color:white">Hoặc ủng hộ bằng cách góp ý với chúng tôi bất cứ lúc nào</p></li>
+                <li><input type="text" id="name" name="name" placeholder="Họ và tên"></li>
+                <li><input type="text" id="email" name="email" placeholder="Địa chỉ e-mail"></li>
+                <li><input type="text" id="phone" name="phone" placeholder="Số điện thoại"></li>
+                <li><input type="text" id="book" name="book" placeholder="Tên Sách"></li>
+                <li><textarea id="content" name="content" placeholder="Nội dung góp ý" ></textarea></li>
+                <li><button onclick="Submit()">GỬI GÓP Ý <i class="fas fa-check-circle" style='color:white'></i></button></li>
+            </ul>
+        </div>
+    </div>
+            <div class="clr"></div>
+        </div>
+        <hr>
+        <div id="footer">
+            <div id = "l">
+            <p><img src="../img/logo.svg"/><br>Nguyễn Trí Tài - 19522572 - Đồ án 
+                cuối kì môn Internet và công nghệ Web - IE104.M11 - Website đọc sách đơn giản</p>
+            </div>
+            <div  id= "r">
+                <h4>Change Website Language</h4>
+                <ul>
+                    <li>Čeština (cs)<img src="../img/CES.png"/></li>
+                    <li>English (en)<img src="../img/English.png"/></li>
+                    <li>Español (es)<img src="../img/esp.png"/></li>
+                    <li>Vietnamese (zh)<img src="../img/V.png"/></li>
+                </ul>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <script>
+            function Submit() {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var phone = document.getElementById('phone').value;
+                var content = document.getElementById('content').value;
+                var book = document.getElementById('book').value;
+                alert(name + "\n" + email + "\n" + phone + "\n" + book + "\n" + content+ "\n" + "Xác nhận gửi góp ý")
+            }
+        </script>
+    </body>
+</html>

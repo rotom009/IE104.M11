@@ -1,0 +1,77 @@
+#head{
+    padding-left: 10px;
+    color: white;
+}
+#left{
+    float: left;
+    width: 430px;
+    text-align: left;
+    padding-left: -40px;
+    color: rgb(168, 62, 0);
+}
+#right{
+    float: right;
+    width: 900px;
+    text-align: left;
+    margin-top: 3px;
+}
+ul{
+    list-style: none;
+    padding-left: 40px;
+}
+#right input{
+    width: 700px;
+    height: 35px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+
+}
+#right textarea{
+    width: 702px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+
+    padding-top: 10px;
+}
+#right button{
+    padding:  15px 15px 15px 15px;
+    color: white;
+    background-color: #1100ff;
+    border: none;
+}
+#left li,#right li{
+    margin-bottom: 30px;
+    margin-left: -30px ;
+}
+#left i{
+    margin-right: 10px;
+}
+p{
+    font-size:25px;
+    color:black;
+}
+
+hr{
+    height: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.clr {
+    clear: both;
+}
+body{
+    background-image: url(../../img/star.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#right button:hover{
+    background-color: #0b00a8;
+}
+#left li img{
+    width: 100%;
+}
+a{
+    text-decoration: none; 
+    color: rgb(136, 50, 0);
+}

@@ -1,0 +1,81 @@
+#body{
+    margin-top:2px;
+    width: 900px;
+    border :1px solid #e0d399;
+    padding: 10px 20px;
+    margin-left: 20%;
+    border-radius: 20px;
+    box-shadow:  10px 10px #353535;
+    background-image: url(img/bgbody.jpeg);
+    background-repeat: y;
+}
+
+#content1{
+    display: flex;
+
+}
+.container2 {
+    float: left;
+    width: 70px;
+    margin-left: 4px;
+    margin-top: 30px;
+}
+.container1 {
+    float :right;
+    width: 180px;
+    padding:3px
+}
+.container{
+    width: 300px;
+    border :1px solid black;
+    margin-right:20px;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px
+}
+#content2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container3{
+    width: 260px;
+    border :1px solid black;
+    margin-right:23px;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    padding:5px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5px;
+}
+.container4 img {
+    width: 240px;
+}
+.clr {
+    clear: both;
+}
+body{
+    background-image: url(img/star.jpeg);
+}
+.title1 img{
+    width: 400px;
+    height: 400px;
+    
+}
+.title2 {
+    float: right;
+    font-size: 20px;
+    width: 500px;
+}
+.title1{
+    float: left;
+    width: 400px;
+}
+#tag{
+    display: flex;
+}
+.tag1 {
+    margin-left: 70px;
+}
+h2:hover{
+    color: rgb(112, 112, 112);
+}

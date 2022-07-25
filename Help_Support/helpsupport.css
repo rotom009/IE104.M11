@@ -1,0 +1,26 @@
+#body{
+    width: 900px;
+    margin-left: 250px;
+    border: 1px solid rgb(117, 117, 117);
+    margin-top:10px;
+    padding:20px;
+    background-image: url(../img/bgbody.jpeg);
+
+    border-radius:5px;
+    font-size: 18px;
+}
+body {
+    background-image: url(../img/star.jpeg);
+}
+#body li:hover{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+#body li {
+    font-size: 22px;
+}
